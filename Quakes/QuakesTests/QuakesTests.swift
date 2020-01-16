@@ -18,7 +18,7 @@ class QuakesTests: XCTestCase {
         // - red = write failing test
         // - green = refactor, clean up until passing
         // - refactor = clean up code or reorganize
-        // - repeat
+        // repeat
 
         let decoder = JSONDecoder()
         // below not needed; handled in init(from decoder:)

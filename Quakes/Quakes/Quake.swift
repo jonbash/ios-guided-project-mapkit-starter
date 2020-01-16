@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import MapKit
 
 // muse use subclass of NSObject to work with MapKit
 class Quake: NSObject, Decodable {
@@ -51,4 +50,10 @@ class Quake: NSObject, Decodable {
 
         super.init()
     }
+}
+
+// MARK: - Quake Results
+
+struct QuakeResults: Decodable {
+    let features: [Quake]
 }
