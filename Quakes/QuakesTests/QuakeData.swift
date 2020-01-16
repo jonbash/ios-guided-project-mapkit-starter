@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+// raw string; as if loaded from file
 let quakeData =
 ###"""
 {
